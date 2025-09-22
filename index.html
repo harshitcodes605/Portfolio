@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshit Srivastava | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script>document.documentElement.classList.add('js-enabled');</script>
+</head>
+<body>
+  <header>
+    <h1 class="logo">My Portfolio</h1>
+    <nav>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="new1.png" alt="Harshit Srivastava Profile Picture" class="profile-pic">
+      <div class="hero-text">
+        <h2>Hello Visitor, I'm <span>Harshit Srivastava</span></h2>
+        <h3 class="tagline">Web Developer | Learner | Tech Enthusiast</h3>
+        <div class="social-links">
+          <a href="https://github.com/harshitcodes605" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/harshit-srivastava-986301315" target="_blank"aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/harshitsrivastava._._/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="fade-in-section">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Greetings visitors! I am Harshit Srivastava, a learning developer and tech enthusiast who is currently on the path of exploration in this vast world of technology. Walking on that path, I have recently joined MLCOE(Machine Learning Center Of Excellence) as a web developer.</p>
+        </div>
+        <div class="about-details">
+          <h3>Key Details</h3>
+          <ul>
+            <li><strong>From:</strong> Gorakhpur, Uttar Pradesh</li>
+            <li><strong>School:</strong> City Montessori School, Lucknow</li>
+            <li><strong>College:</strong> AKGEC, Ghaziabad</li>
+            <li><strong>Degree:</strong> B.Tech (CSIT) (2024-2028)</li>
+            <li><strong>Interests:</strong> Web Development, Machine Learning</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="fade-in-section">
+      <h2>My Skills</h2>
+      <ul>
+        <li><i class="fab fa-html5"></i> HTML</li>
+        <li><i class="fab fa-css3-alt"></i> CSS</li>
+        <li><i class="fab fa-js"></i> Javascript</li>
+        <li><i class="fab fa-java"></i> Java</li>
+        <li><i class="fab fa-python"></i> Python</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="fade-in-section">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Registration Form</h3>
+            <p>A clean and functional user registration form built with fundamental web technologies.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn" target="_blank">Demo</a>
+              <a href="#" class="btn" target="_blank">Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Upcoming Project</h3>
+            <p>Another exciting project is currently in development. Stay tuned for more updates!</p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>Node.js</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn disabled" aria-disabled="true">Demo</a>
+              <a href="#" class="btn disabled" aria-disabled="true">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="fade-in-section">
+      <h2>Get In Touch</h2>
+      <form class="contact-form" id="contact-form">
+        <div class="form-group">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Harshit Srivastava</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
